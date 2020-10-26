@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Inter;
+  src: url("../static/fonts/Inter-Medium.ttf") format("truetype");
+}
+.error {
+  font-family: Inter;
+  display: flex;
+  height: 100vh;
+  color: #1e1e1e;
+}
+.error__wrapper {
+  margin: auto;
+}
+.error__code {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 0 20px;
+}
+.error__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0 0 70px;
+  text-align: center;
+}
+.error__link {
+  display: block;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 11px;
+  text-align: center;
+  text-decoration: none;
+  color: #3369f3;
+}
+
+/*# sourceMappingURL=error.css.map */

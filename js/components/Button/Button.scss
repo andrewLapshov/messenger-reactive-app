@@ -1,0 +1,19 @@
+.button {
+  display: block;
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto 14px;
+  height: 37px;
+  border: none;
+  outline: none;
+  background: #3369f3;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  color: #ffffff;
+  cursor: pointer;
+  &_red {
+    background: red;
+  }
+}
