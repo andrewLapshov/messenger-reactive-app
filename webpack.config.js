@@ -6,7 +6,7 @@ const isDev = process.env.NODE_ENV === 'development';
 const isProd = !isDev;
 
 module.exports = {
-  entry: './js/index.ts',
+  entry: './src/js/index.ts',
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'static/js/[name]-[hash].bundle.js',
