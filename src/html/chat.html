@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chat App</title>
+    <link rel="stylesheet" href="../csss/chat.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="chat-list">
+        <div class="chat-list__top">
+          <div class="chat-list__item chat-list__item_search-bar">
+            <a href="settings.html" class="chat-list__link">Профиль ></a>
+            <input type="text" class="search-bar" placeholder="Поиск" />
+          </div>
+          <div class="chat-list__item">
+            <div class="chat-list__image"></div>
+            <div class="chat-list__info">
+              <span class="chat-list__name">Андрей</span>
+              <span class="chat-list__text">Изображение</span>
+              <span class="chat-list__timestamp">10:49</span>
+              <span class="chat-list__unread">2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="chat">
+        <!--        <p class="chat__empty-text">Выберите чат чтобы отправить сообщение</p>-->
+        <div class="chat__top">
+          <div class="chat__avatar"></div>
+          <div class="chat__info">
+            <span class="chat__name">Вадим</span>
+            <span class="chat__last-seen">Был 5 минут назад</span>
+          </div>
+        </div>
+        <div class="chat__feed">
+          <div class="message message_in">
+            <p class="message__text">
+              Привет! Смотри, тут всплыл интересный кусок лунной космической
+              истории — НАСА в какой-то момент попросила Хассельблад
+              адаптировать модель SWC для полетов на Луну. Сейчас мы все знаем
+              что астронавты летали с моделью 500 EL — и к слову говоря, все
+              тушки этих камер все еще находятся на поверхности Луны, так как
+              астронавты с собой забрали только кассеты с пленкой. Хассельблад в
+              итоге адаптировал SWC для космоса, но что-то пошло не так и на
+              ракету они так никогда и не попали. Всего их было произведено 25
+              штук, одну из них недавно продали на аукционе за 45000 евро.
+            </p>
+            <span class="message__timestamp">11:56</span>
+          </div>
+          <div class="message message_out">
+            <p class="message__text">Круто!</p>
+            <span class="message__timestamp">12:00</span>
+          </div>
+        </div>
+        <form class="chat__new-message">
+          <input
+            type="text"
+            class="chat__new-message-input"
+            placeholder="Сообщение"
+          />
+          <button class="chat__new-message-submit" type="button"></button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
